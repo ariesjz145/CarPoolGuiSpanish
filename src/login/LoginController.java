@@ -10,6 +10,7 @@ package login;
 
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
+import com.jfoenix.controls.JFXToggleButton;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -33,8 +34,7 @@ public class LoginController {
   private static users.User user;
 
 
-  /**
-   * When this method is called the scene will change to the Main menu scene if username and
+   /* When this method is called the scene will change to the Main menu scene if username and
    * password is correct.
    ***/
   public void signInButtonPushed(ActionEvent actionEvent) throws IOException, SQLException {

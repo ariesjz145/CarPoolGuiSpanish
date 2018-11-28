@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="367.0" prefWidth="473.0" stylesheets="@../resources/dark.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+  <children>
+    <JFXTextField fx:id="username" labelFloat="true" layoutX="122.0" layoutY="131.0" prefHeight="33.0" prefWidth="259.0" promptText="Nombre De Usuario">
+      <font>
+        <Font size="16.0" />
+      </font>
+    </JFXTextField>
+    <JFXPasswordField fx:id="password" labelFloat="true" layoutX="124.0" layoutY="203.0" onAction="#signInButtonPushed" prefHeight="34.0" prefWidth="259.0" promptText="Contraseña">
+      <font>
+        <Font size="17.0" />
+      </font>
+    </JFXPasswordField>
+    <JFXButton defaultButton="true" layoutX="105.0" layoutY="287.0" onAction="#signInButtonPushed" prefHeight="40.0" prefWidth="127.0" styleClass="login-button" text="Iniciar Sesión" />
+    <JFXButton layoutX="266.0" layoutY="287.0" onAction="#newUserButtonPushed" prefHeight="40.0" prefWidth="141.0" styleClass="login-button" text="Nuevo Usuario" />
+    <FontAwesomeIconView glyphName="USER" layoutX="227.0" layoutY="88.0" size="55" />
+    <FontAwesomeIconView glyphName="USER" layoutX="91.0" layoutY="158.0" size="25" />
+    <FontAwesomeIconView glyphName="KEY" layoutX="91.0" layoutY="233.0" size="25" />
+      <JFXButton layoutX="295.0" layoutY="21.0" onAction="#newUserButtonPushed" prefHeight="40.0" prefWidth="172.0" styleClass="login-button" text="Cambiar Idioma" />
+  </children>
+</AnchorPane>
