@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+Sat Nov 24 14:46:01 EST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0167-4741-e7c5-000004b379d8 
+on database directory C:\Users\Josh\Desktop\College\CarPoolGui\lib\carpool with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Josh/Desktop/College/CarPoolGui/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=C:\Users\Josh\Desktop\College\CarPoolGui
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+------------  Begin Error Message -------------
+
+System may be in a inconsistent state, missing file C:\Users\Josh\Desktop\College\CarPoolGui\lib\carpool\log\log7.dat
+------------  End Error Message -------------
+
+Database Class Loader started - derby.database.classpath=''
